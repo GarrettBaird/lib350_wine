@@ -25,7 +25,7 @@ title: Wineries in the ____ Valley
 tagline: a template for creating simple digital exhibits
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-Sheets is a template for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills."
+description: "A Collection of photos of wineries from the ___ valley."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
@@ -62,7 +62,8 @@ metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNwHgmjF74aFf9oMA
 # (this is done automatically by gh-pages build)
 #
 # dev mode turns on ability to change metadata
-development-mode: false
+# TODO Change to False before final publishing
+development-mode: True
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
