@@ -1,56 +1,41 @@
----
-title: Data Management Plan
-layout: page
-permalink: /dmp.html
----
-**Project Title – Project Subtitle**
+**California Wine – A Visual History**
 
 **Data Management Plan**
 
 **Project Description**
 
-The collections’ theme will encapsulate the production, storage, and consumption of wine within California. With California being one of the premiere wine producers in the United States, being able to see a historical progression of how the vineyards, technology, and social gatherings surrounding wine allow us to better understand the importance of the wine industry held within California. The collection will consist of still frame photographs of important vineyards, tools used in the creation of wine, the barrels used to house the wine, and the social gatherings that were directly linked to wine. The photographs themselves will be collected and documented from GLAMS (Galleries, Libraries, Archives, and Museums) such as the California Digital Library, The Soma County Library, UC Davis, and other digital collections. The audience for this collection is targeted for those who are interested in the historical development of wine in the California area such as historians and vintner. By examining the differences in technique, storage, vineyards, and equipment, we will be able to better understand what made California wines so popular.
-
-**Roles and Responsibilities**
-
-·         Tate Johnson \- collecting data and site management
-
-·         Garrett Baird \- collecting data and site management
-
-Outline the rights and obligations of all parties with respect to their roles and responsibilities in data management. As a collaborative project, explain the coordination of data management responsibilities across partners.
+The collections’ theme will encapsulate the production, storage, and consumption of wine within California. With California being one of the premiere wine producers in the United States, being able to see a historical progression of how the vineyards, technology, and social gatherings surrounding wine allow us to better understand the importance of the wine industry held within California. This collection is hosted on CollectionBuilder, an open-source platform that allows users to create and share digital collections. We are using it to organize and display the photographs and their associated metadata. The collection will consist of still frame photographs of important vineyards, tools used in the creation of wine, the barrels used to house the wine, and the social gatherings that were directly linked to wine. The photographs themselves will be collected and documented from GLAMS (Galleries, Libraries, Archives, and Museums) such as the California Digital Library, The Sonoma County Library, UC Davis, and other digital collections. The audience for this collection is targeted for those who are interested in the historical development of wine in the California area such as historians and vintner. By examining the differences in technique, storage, vineyards, and equipment, we will be able to better understand what made California wines so popular.
 
 **Anticipated Data**
 
-Briefly describe how your data was collected.
-
-In the table, group it by file type, then sum up the \# of items, the size in MB, and data sources for each grouping.
+The data was collected by searching through various GLAM (Galleries, Libraries, Archives, and Museums) online libraries and digital collections. We focused on four primary sources: the UC Berkeley Library, UC Davis Library, UC San Diego Library, and the Sonoma County Library. These collections provided a good range of photographs documenting the history of wine production, storage, and consumption in California.
 
 | Item Description | File Type | Size (in MB) | \# of Items | License(s) | Sources |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-|   |   |   |   |   |   |
-|   |   |   |   |   |   |
+|  **Photographs documenting winemaking machinery, wine barrels, vineyards, etc.** |  **JPEG** |  **26.79MB** |  **11** | **No Copyright \- United States,  In Copyright \- Non-Commercial Use Permitted** | [**UC Berkeley Library**](https://digicoll.lib.berkeley.edu/record/45576?ln=en&v=uv#?xywh=-1016%2C394%2C2197%2C1137)**,  [UC Davis Library](https://digital.ucdavis.edu/search//%5B%5D//20/), [UC San Diego Library](https://library.ucsd.edu/dc/search?utf8=%E2%9C%93&q=), [Sonoma County Library](https://digital.sonomalibrary.org/)** |
+|  **Photographs documenting vineyards, winemaking tools, barrels, etc.** |  **PNG** |  **1.34MB** |  **4** | **No Copyright,  In Copyright \-Non-Commercial Use Permitted** |  **[Sonoma County Library](https://digital.sonomalibrary.org/)**  |
 
 **Documentation and Metadata**
 
-This section should describe relevant documentation and where it can be accessed. Your data dictionary, once completed, is excellent documentation\! Where and how do you plan on providing it to your audience?
+The project will include metadata for each photograph, documenting key information such as the object id, filename, date, source, description, and more. This metadata will be stored in a spreadsheet on Google Sheets, which will be publicly accessible via a shared link. Users can access and view the metadata directly from Google Sheets, where they can access and download the data as needed.
+
+In addition to the Google Sheets document, the metadata will also be integrated into the CollectionBuilder site. CollectionBuilder allows for easy access to metadata through its interface, where users can view, search, and filter the metadata directly alongside the images. A data dictionary will also be provided to help users understand the terms and fields used in the metadata. The data dictionary will be available on the CollectionBuilder site.
 
 **Storage and Backup**
 
-This section should describe where your **metadata, repository, and collection images** are stored and if they are backed up. Do you have local backups? Backups on cloud storage?
-
-Hint: Your data dictionary, once completed, is excellent documentation\! Where and how do you plan on provide it to your audience?
+The project’s metadata, images, and all other files will be stored in a few different places to make sure everything is accessible and backed up. The main collection will be hosted on CollectionBuilder, but for cloud storage, we’ll use Google Drive to keep backups of everything and make sure the files are readily available. On top of that, we’ll keep a local backup of all the project files on our personal computers, just in case something were to happen with the cloud storage.
 
 **Data Sharing**
 
-This section should describe how and on what platforms your data is shared. If there are potential cases for reuse, you should describe how your data will made available to people who want to reuse it.
+The data will be shared publicly on CollectionBuilder, where users can access and download the photographs and metadata. The metadata and documentation will also be available via Google Sheets or GitHub for easy reference.
 
 **Period of Data Retention**
 
-This section should address how long your group plans to maintain each component of the project before and after it has been submitted for grading.
+After the project is submitted for grading, we don’t plan to actively maintain it. However, the data will remain publicly accessible on CollectionBuilder and Google Sheets for those who wish to explore or reuse it.
 
 **Licensing and Ethical Issues**
 
-Use this section to outline the intellectual property rights of your created material.  What are the terms under which others may use these materials? If your data and products raise any potential ethics issues, use this section to address those matters.
+The materials for this project, including the photos and metadata, are all from public GLAM collections, so the use of these materials is subject to the terms outlined by the respective library. Some materials are in the Public Domain, while others are In Copyright \- Non-Commercial Use Permitted.
 
  
 
@@ -58,11 +43,18 @@ Use this section to outline the intellectual property rights of your created mat
 
 | field | definition | example value |
 | :---- | :---- | :---- |
-| objectid |   |   |
-| filename |   |   |
-| title |   |   |
-| creator |   |   |
-| … |   |   |
+| objectid |  A unique identifier for each photograph in the collection |  coll001 |
+| filename |  The name of the image file |  wine\_tasting.jpg |
+| title |  The title of the image |  Redwood tanks in the cellars of the Italian Swiss Colony |
+| creator |  The person or organization responsible for creating or taking the image. |  Highsmith, Carol M |
+| date |  The year the photograph was taken or created. |  1898 |
+| description | A brief description of the content or context of the photograph.	 | Winery on a riverbank  |
+| source | The library, archive, or institution where the photograph is held.	 | UC Berkeley Library |
+| format | The file format of the photograph.	 | image/jpeg |
+| type |  | Image;StillImage |
+| rights | The rights or licensing status of the image.	 | Public Domain |
+| subject |  | Wineries;Wine;Cask;Wine Tasting |
+| location |  | Napa City, California |
 
  
 
