@@ -22,10 +22,10 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
 # title of site appears in banner
 title: Wineries in the Napa Valley 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: Exploring wine, tools, and culture through time
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A Collection of photos of wineries from the ___ valley."
+description: "This collection shows the wineries and tools in the Napa Valley through time. "
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
