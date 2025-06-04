@@ -1,3 +1,9 @@
+---
+layout: page
+title: DMP
+permalink: /DMP.html
+---
+
 **California Wine – A Visual History**
 
 **Data Management Plan**
