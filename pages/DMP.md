@@ -1,3 +1,11 @@
+---
+title: DMP
+layout: page
+permalink: /DMP.html
+# see _data/config-metadata.csv for display options
+# do not add content to this file
+---
+
 **California Wine – A Visual History**
 
 **Data Management Plan**
