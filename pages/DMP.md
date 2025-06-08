@@ -1,9 +1,3 @@
----
-layout: page
-title: DMP
-permalink: /DMP.html
----
-
 **California Wine – A Visual History**
 
 **Data Management Plan**
@@ -18,7 +12,7 @@ The data was collected by searching through various GLAM (Galleries, Libraries, 
 
 | Item Description | File Type | Size (in MB) | \# of Items | License(s) | Sources |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-|  **Photographs documenting winemaking machinery, wine barrels, vineyards, etc.** |  **JPEG** |  **26.79MB** |  **11** | **No Copyright \- United States,  In Copyright \- Non-Commercial Use Permitted** | [**UC Berkeley Library**](https://digicoll.lib.berkeley.edu/record/45576?ln=en&v=uv#?xywh=-1016%2C394%2C2197%2C1137)**,  [UC Davis Library](https://digital.ucdavis.edu/search//%5B%5D//20/), [UC San Diego Library](https://library.ucsd.edu/dc/search?utf8=%E2%9C%93&q=), [Sonoma County Library](https://digital.sonomalibrary.org/)** |
+|  **Photographs documenting winemaking machinery, wine barrels, vineyards, etc.** |  **JPEG** |  **28.16MB** |  **16** | **No Copyright \- United States,  In Copyright \- Non-Commercial Use Permitted** | [**UC Berkeley Library**](https://digicoll.lib.berkeley.edu/record/45576?ln=en&v=uv#?xywh=-1016%2C394%2C2197%2C1137)**,  [UC Davis Library](https://digital.ucdavis.edu/search//%5B%5D//20/), [UC San Diego Library](https://library.ucsd.edu/dc/search?utf8=%E2%9C%93&q=), [Sonoma County Library](https://digital.sonomalibrary.org/)** |
 |  **Photographs documenting vineyards, winemaking tools, barrels, etc.** |  **PNG** |  **1.34MB** |  **4** | **No Copyright,  In Copyright \-Non-Commercial Use Permitted** |  **[Sonoma County Library](https://digital.sonomalibrary.org/)**  |
 
 **Documentation and Metadata**
@@ -33,7 +27,7 @@ The project’s metadata, images, and all other files will be stored in a few di
 
 **Data Sharing**
 
-The data will be shared publicly on CollectionBuilder, where users can access and download the photographs and metadata. The metadata and documentation will also be available via Google Sheets or GitHub for easy reference.
+The data will be shared publicly on CollectionBuilder site, where users can access and download the photographs and metadata. The metadata and documentation will also be available via Google Sheets or GitHub for easy reference.
 
 **Period of Data Retention**
 
@@ -47,6 +41,8 @@ The materials for this project, including the photos and metadata, are all from 
 
 **Appendix: Data Dictionary**
 
+Used photo description as filename
+
 | field | definition | example value |
 | :---- | :---- | :---- |
 | objectid |  A unique identifier for each photograph in the collection |  coll001 |
@@ -55,12 +51,14 @@ The materials for this project, including the photos and metadata, are all from 
 | creator |  The person or organization responsible for creating or taking the image. |  Highsmith, Carol M |
 | date |  The year the photograph was taken or created. |  1898 |
 | description | A brief description of the content or context of the photograph.	 | Winery on a riverbank  |
+| subject | The main topics, themes, or objects depicted in the photograph | Bottling machinery;Wineries |
+| location | The geographical place where the photograph was taken | Napa City, California |
+| latitude | The north/south position of the location where the photograph was taken | 38.7614089 |
+| longitude | The east–west position of the location where the photograph was taken | \-122.97515 |
 | source | The library, archive, or institution where the photograph is held.	 | UC Berkeley Library |
-| format | The file format of the photograph.	 | image/jpeg |
-| type |  | Image;StillImage |
+| type | The category of content | Image;StillImage |
+| format | The file format of the photograph.	 | Image/jpeg |
 | rights | The rights or licensing status of the image.	 | Public Domain |
-| subject |  | Wineries;Wine;Cask;Wine Tasting |
-| location |  | Napa City, California |
 
  
 
