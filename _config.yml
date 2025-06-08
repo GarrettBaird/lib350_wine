@@ -63,7 +63,7 @@ metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNwHgmjF74aFf9oMA
 #
 # dev mode turns on ability to change metadata
 # TODO Change to False before final publishing
-development-mode: True
+development-mode: False
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
